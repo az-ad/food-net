@@ -1,7 +1,21 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
 h1{
     font-size: 50px;
+    color: gray;
 }
-
+h3{
+    font-size: 90%;
+    color: rgb(27, 8, 8);
+    padding-bottom: 20px;
+}
+p{
+    padding-bottom: 20px;
+    padding-right: 30px;
+    color: rgb(151, 137, 137);
+}
 .orange-color{
     color: orange;
 }
@@ -22,6 +36,47 @@ h1{
     padding-left: 5%;
     padding-top: 10%;
 }
-.half-width img{
+#img-mid{
+    width: 50%;
+    height: 90%;
+   padding-left: 150px;
+   padding-top: 10px;
+}
+img{
+    width: 80%;
+
+}
+.mid-banner{
+    background-image: url(image/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+.my-receipe{
+    text-align: center;
+}
+.receipe-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    padding-right: 0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.per-receipe-design{
+    border: 10px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    border-image: white;
+    
+}
+.recipe-image{
     width: 100%;
+
+}
+.footer-background{
+    background-color:lightskyblue;
+    padding-bottom: 0%px;
+    margin-bottom: 0%;
+    
 }
